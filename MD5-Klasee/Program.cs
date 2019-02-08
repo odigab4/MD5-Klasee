@@ -18,6 +18,7 @@ namespace MD5_Klasee
                 Console.WriteLine("Mini: ");
                 guess = Console.ReadLine();
             }
+
             Console.WriteLine("Tu atmineeji!");
 
             Console.ReadLine();
