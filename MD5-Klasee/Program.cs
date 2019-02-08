@@ -10,9 +10,18 @@ namespace MD5_Klasee
     {
         static void Main(string[] args)
         {
+            string secretWord = "vaards";
+            string guess = "";
 
+            while (guess != secretWord)
+            {
+                Console.WriteLine("Mini: ");
+                guess = Console.ReadLine();
+            }
+            Console.WriteLine("Tu atmineeji!");
 
             Console.ReadLine();
+
         }
     }
 }
